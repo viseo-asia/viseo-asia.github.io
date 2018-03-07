@@ -2,6 +2,8 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
+import customCss from '../css/prettify.css'
+
 const Template = ({data, location}) => {
   const { markdownRemark: post } = data
   const { frontmatter, html } = post
