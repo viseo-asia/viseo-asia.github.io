@@ -1,0 +1,2 @@
+webpackJsonp([0xbe5e7941333a],{349:function(t,e){t.exports={pathContext:{posts:[{html:"<h2>Metrics</h2>\n<p>TICK stack</p>",id:"/media/rudi/data/viseo-asia.github.io/src/pages/2018-03-09-metrics/index.md absPath of file >>> MarkdownRemark",frontmatter:{date:"2018-03-09",path:"/metrics",title:"Metrics",excerpt:"Metrics",tags:["metrics"]}}],tagName:"metrics"}}}});
+//# sourceMappingURL=path---tags-metrics-05b3255fe3eab1239286.js.map

@@ -1,16 +1,32 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-61655a90161809600565.js",
-      "component---src-pages-index-js-61655a90161809600565.js.map"
+      "component---src-pages-index-js-807e2d13b7a562d4e1d9.js",
+      "component---src-pages-index-js-807e2d13b7a562d4e1d9.js.map"
+    ],
+    "component---src-templates-tags-js": [
+      "component---src-templates-tags-js-f9a8a6f4dec9d1a40211.js",
+      "component---src-templates-tags-js-f9a8a6f4dec9d1a40211.js.map"
+    ],
+    "path---tags": [
+      "path---tags-d98a8cd6a3ebcd9b3957.js",
+      "path---tags-d98a8cd6a3ebcd9b3957.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
+    "path---tags-cd": [
+      "path---tags-cd-d55a2b5eba3aafaea7f5.js",
+      "path---tags-cd-d55a2b5eba3aafaea7f5.js.map"
+    ],
+    "path---tags-ci": [
+      "path---tags-ci-cb7b80d9df6dfbd844a3.js",
+      "path---tags-ci-cb7b80d9df6dfbd844a3.js.map"
+    ],
     "component---src-templates-blog-post-js": [
-      "component---src-templates-blog-post-js-afa300e489498142f56d.js",
-      "component---src-templates-blog-post-js-afa300e489498142f56d.js.map"
+      "component---src-templates-blog-post-js-22dd24d4365834cb21fe.js",
+      "component---src-templates-blog-post-js-22dd24d4365834cb21fe.js.map"
     ],
     "component---src-layouts-index-js": [
       "component---src-layouts-index-js-3c760f7bf549a16bd9b4.js",
@@ -21,8 +37,8 @@
       "path---page-2-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---index": [
-      "path---index-e2c10def01f140bac978.js",
-      "path---index-e2c10def01f140bac978.js.map"
+      "path---index-1536492c4f9752cf9312.js",
+      "path---index-1536492c4f9752cf9312.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
@@ -36,31 +52,55 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---tags-docker": [
+      "path---tags-docker-dfd7396811db36ec77a5.js",
+      "path---tags-docker-dfd7396811db36ec77a5.js.map"
+    ],
+    "component---src-templates-all-tags-js": [
+      "component---src-templates-all-tags-js-a109e949baa4beb6ccfa.js",
+      "component---src-templates-all-tags-js-a109e949baa4beb6ccfa.js.map"
+    ],
+    "path---tags-metrics": [
+      "path---tags-metrics-05b3255fe3eab1239286.js",
+      "path---tags-metrics-05b3255fe3eab1239286.js.map"
+    ],
     "component---src-pages-page-2-js": [
       "component---src-pages-page-2-js-075954cd9c4544c7dcd8.js",
       "component---src-pages-page-2-js-075954cd9c4544c7dcd8.js.map"
     ],
+    "path---tags-jenkins": [
+      "path---tags-jenkins-9b67f942c74bbbf60b29.js",
+      "path---tags-jenkins-9b67f942c74bbbf60b29.js.map"
+    ],
+    "path---tags-ucp": [
+      "path---tags-ucp-4425fe6dbde6c64a52e8.js",
+      "path---tags-ucp-4425fe6dbde6c64a52e8.js.map"
+    ],
     "app": [
-      "app-bc5980a2deaa53c90599.js",
+      "app-d97bedefd045c45a3248.js",
       "build-js-styles.css",
-      "app-bc5980a2deaa53c90599.js.map",
+      "app-d97bedefd045c45a3248.js.map",
       "build-js-styles.css.map"
     ],
     "path---metrics": [
-      "path---metrics-79fdc43c18d1f1bf08c6.js",
-      "path---metrics-79fdc43c18d1f1bf08c6.js.map"
+      "path---metrics-f2f791d87170685ce493.js",
+      "path---metrics-f2f791d87170685ce493.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---tags-pipeline": [
+      "path---tags-pipeline-d5c40ddcddd7a02d001f.js",
+      "path---tags-pipeline-d5c40ddcddd7a02d001f.js.map"
     ],
     "path---jenkins-pipeline": [
       "path---jenkins-pipeline-71e92a4444b5d21151b2.js",
       "path---jenkins-pipeline-71e92a4444b5d21151b2.js.map"
     ],
     "path---docker-ee-ucp": [
-      "path---docker-ee-ucp-03cb85c44f243e0d4edf.js",
-      "path---docker-ee-ucp-03cb85c44f243e0d4edf.js.map"
+      "path---docker-ee-ucp-80dd3924b9a378e6a090.js",
+      "path---docker-ee-ucp-80dd3924b9a378e6a090.js.map"
     ]
   }
 }
