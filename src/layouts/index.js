@@ -8,12 +8,14 @@ import './index.css'
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="Viseo Asia Innovation Labs"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'Viseo Asia Innovation Labs Blob' },
+        { name: 'keywords', content: 'viseo' },
       ]}
-    />
+      >
+     <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script> 
+    </Helmet>
     <Header />
     <div
       style={{

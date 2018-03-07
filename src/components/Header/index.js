@@ -4,7 +4,7 @@ import Link from 'gatsby-link'
 const Header = () => (
   <div
     style={{
-      background: 'rebeccapurple',
+      background: '#1B3866',
       marginBottom: '1.45rem',
     }}
   >
@@ -23,7 +23,7 @@ const Header = () => (
             textDecoration: 'none',
           }}
         >
-          Viseo Asia Innovation Labs
+          VISEO Asia <span style={{fontFamily: 'verdana; serif', fontSize: 0.6 + 'em', fontStyle: 'italic'}}>Innovation Labs</span>
         </Link>
       </h1>
     </div>

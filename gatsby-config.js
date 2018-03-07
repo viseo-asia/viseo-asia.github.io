@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter'
+    title: 'Viseo Asia Innovation Labs'
   },
   plugins: [
     'gatsby-plugin-react-helmet',

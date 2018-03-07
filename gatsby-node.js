@@ -1,5 +1,47 @@
 const path = require('path')
 
+const createTagPages = (createPage, posts) => {
+  const tagPageTemplate = path.resolve(`src/templates/tags.js`)
+  const allTagsTemplate = path.resolve(`src/templates/all-tags.js`)
+
+  const postsByTags = {}
+
+  posts.forEach(({node}) => {
+    if (node.frontmatter.tags) {
+      node.frontmatter.tags.forEach(tag => {
+        if (!postsByTags[tag]) {
+          postsByTags[tag] = []
+        }
+
+        postsByTags[tag].push(node)
+      })
+    }
+  })
+
+  const tags = Object.keys(postsByTags)
+
+  createPage({
+    path: `/tags`,
+    component: allTagsTemplate,
+    context: {
+      tags: tags.sort()
+    }
+  })
+
+  tags.forEach(tagName => {
+    const posts = postsByTags[tagName]
+
+    createPage({
+      path: `/tags/${tagName}`,
+      component: tagPageTemplate,
+      context: {
+        posts,
+        tagName
+      }
+    })
+  })
+}
+
 exports.createPages = ({ boundActionCreators, graphql }) => {
   const { createPage } = boundActionCreators
   const blogPostTemplate = path.resolve(`src/templates/blog-post.js`)
@@ -9,7 +51,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
   // allMarkdownRemark(sort:{fields:[frontmatter___date], order: ASC}) {
 
   return graphql(`{
-    allMarkdownRemark {
+    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
         node {
           html
@@ -32,10 +74,16 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
 
       const posts = result.data.allMarkdownRemark.edges
 
+      createTagPages(createPage, posts)
+
       posts.forEach(({node}, index) => {
         createPage({
           path: node.frontmatter.path,
-          component: blogPostTemplate
+          component: blogPostTemplate,
+          context: {
+            prev: index === 0 ? null : posts[index - 1].node,
+            next: index === (posts.length - 1) ? null : posts[index + 1].node
+          }
         })
       })
     })

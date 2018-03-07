@@ -43,5 +43,3 @@ public:
 [2015-11-30 07:43:54,597][INFO ][node                     ] [Water Wizard] started
 [2015-11-30 07:43:54,651][INFO ][gateway                  ] [Water Wizard] recovered [0] indices into cluster_state
 </pre>
-
-<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
