@@ -10,13 +10,15 @@ excerpt: "CI/CD technique using Jenkins Pipeline"
 
 This post will describe a technique to achieve Continuous Integration and Deployment in Docker Enterprise Edition using Jenkins Pipelines.
 
+![DevOps Process](devops-process-1024x527.png)
+
 ## TL;DR
 
 1. Create a **jenkins** user in Docker Trusted Registry (DTR)
 1. Create an application repository in DTR
 2. Deploy a Docker Swarm Stack
 3. Add a Jenkinsfile using Jenkins Pipelines to your application repository
-4. Configure Jenkins DTR credenti[als
+4. Configure Jenkins DTR credentials
 5. Commit code to application, build and deploy with Jenkins
 
 ## Detail
