@@ -1,13 +1,20 @@
-# gatsby-starter-default
-The default Gatsby starter
+# Viseo Asia Innovation Labs Blog
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
+## Developer Setup
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-example-site
-```
+- `npm install -g gatsby`
+- `git clone git@github.com:viseo-asia/viseo-asia.github.io.git`
+- Always work on the *develop* branch - never *master*
+- `cd viseo-asia.github.io`
+- `npm install`
+- `gatsby develop`.io`
+- `npm install`
+- `gatsby develop`
+- open [http://localhost:8000/](http://localhost:8000/)
+- Create blog posts in the *pages* directory (follow the dated name format)
 
 ## Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+Deployment will build the static site on the *master* branch and push it to github.
+
+- `npm run deploy`
