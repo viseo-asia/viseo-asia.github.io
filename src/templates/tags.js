@@ -13,9 +13,9 @@ const Tags = ({ pathContext }) => {
           </span>
         </div>
         <ul>
-          {posts.map(post => {
+          {posts.map((post, i) => {
             return (
-              <li>
+              <li key={i}>
                 <Link to={post.frontmatter.path}>
                   {post.frontmatter.title}
                 </Link>
