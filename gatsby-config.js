@@ -28,6 +28,12 @@ module.exports = {
         name: 'src',
         path: `${__dirname}/src`
       }
-    }
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-46997328-3'
+      },
+    },
   ]
 };
