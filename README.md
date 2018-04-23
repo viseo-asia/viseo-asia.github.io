@@ -7,8 +7,6 @@
 - Always work on the *develop* branch - never *master*
 - `cd viseo-asia.github.io`
 - `npm install`
-- `gatsby develop`.io`
-- `npm install`
 - `gatsby develop`
 - open [http://localhost:8000/](http://localhost:8000/)
 - Create blog posts in the *pages* directory (follow the dated name format)
